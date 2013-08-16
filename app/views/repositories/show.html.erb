@@ -1,0 +1,23 @@
+<%= link_to '&laquo; Back'.html_safe, root_path, class: 'back-button' %>
+<h1><%= @repository.name %></h1>
+
+<% client.contribs(@repository).each do |contributor| %>
+  <ul class="contributor-dates">
+    <li>
+      <span><%= contributor.login %></span>
+      - <%= time_ago_in_words(Contributor.new(contributor.login, @repository).last_contributed_at) %> ago
+    </li>
+  </ul>
+<% end %>
+
+<h2>Top Contributors</h2>
+
+<ul class="usage-chart">
+  <% client.contribs(@repository).each do |contributor| %>
+    <li>
+      <p class="usage-name"><%= contributor.login %></p>
+      <p style="height: <%= contributor.contributions %>px;" class="usage-bar"></p>
+      <p class="usage-total"><%= contributor.contributions %></p>
+    </li>
+  <% end %>
+</ul>

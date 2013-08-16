@@ -1,0 +1,26 @@
+<% @repositories.each do |repository| %>
+  <div class="entry">
+    <h2>
+      <%= link_to repository.full_name do %>
+        <%= image_tag repository.owner.avatar_url, size: '48x48' %>
+        <%= repository.name %>
+      <% end %>
+    </h2>
+
+    <ul class="contributor-list">
+      <% Contributor.top(repository.full_name).each do |contributor| %>
+        <li>
+          <a href="<%= contributor.html_url %>">
+            <%= image_tag contributor.avatar_url, size: '48x48', class: 'headshot' %>
+          </a>
+          <div class="popup">
+            <h3>Number of Commits</h3>
+            <p class="total-commits"><%= contributor.contributions %></p>
+            <h3>Last Commit</h3>
+            <p class="recent-commit"><%= Contributor.new(contributor.login, repository.full_name).last_contributed_at.strftime('%m/%d/%Y') %></p>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
