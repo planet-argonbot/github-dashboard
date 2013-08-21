@@ -1,0 +1,2432 @@
+[
+  {
+    "sha": "62c693ac1bbef37f57e6588bb93c4e89b50438b3",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-21T02:00:55Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-21T02:00:55Z"
+      },
+      "message": "Merge pull request #295 from andrewpthorp/master\n\nRemove Hashie from Documentation and README",
+      "tree": {
+        "sha": "810906cecb725a043abcdb69f152f5d84237169b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/810906cecb725a043abcdb69f152f5d84237169b"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/62c693ac1bbef37f57e6588bb93c4e89b50438b3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/62c693ac1bbef37f57e6588bb93c4e89b50438b3",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/62c693ac1bbef37f57e6588bb93c4e89b50438b3",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/62c693ac1bbef37f57e6588bb93c4e89b50438b3/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "31195535ed786552d68de99a42d16d8667b42d84",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/31195535ed786552d68de99a42d16d8667b42d84",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/31195535ed786552d68de99a42d16d8667b42d84"
+      },
+      {
+        "sha": "ddcbec93ef4310edc7df52b77ec9d16610cd4970",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ddcbec93ef4310edc7df52b77ec9d16610cd4970",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ddcbec93ef4310edc7df52b77ec9d16610cd4970"
+      }
+    ]
+  },
+  {
+    "sha": "31195535ed786552d68de99a42d16d8667b42d84",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:17:49Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:17:49Z"
+      },
+      "message": "Release 2.0.0.rc4",
+      "tree": {
+        "sha": "d1ff24e774a3247bc52d2d78715f3f6e3b43788a",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/d1ff24e774a3247bc52d2d78715f3f6e3b43788a"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/31195535ed786552d68de99a42d16d8667b42d84",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/31195535ed786552d68de99a42d16d8667b42d84",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/31195535ed786552d68de99a42d16d8667b42d84",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/31195535ed786552d68de99a42d16d8667b42d84/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "3cb7267dd7800049355179a944cf23785b141b62",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/3cb7267dd7800049355179a944cf23785b141b62",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/3cb7267dd7800049355179a944cf23785b141b62"
+      }
+    ]
+  },
+  {
+    "sha": "3cb7267dd7800049355179a944cf23785b141b62",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:13:25Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:13:25Z"
+      },
+      "message": "Version bump",
+      "tree": {
+        "sha": "d1ff24e774a3247bc52d2d78715f3f6e3b43788a",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/d1ff24e774a3247bc52d2d78715f3f6e3b43788a"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/3cb7267dd7800049355179a944cf23785b141b62",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/3cb7267dd7800049355179a944cf23785b141b62",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/3cb7267dd7800049355179a944cf23785b141b62",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/3cb7267dd7800049355179a944cf23785b141b62/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/f1955b6a25daa14f5165f848aa4b547ebe4dea02"
+      }
+    ]
+  },
+  {
+    "sha": "f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:13:04Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-20T00:13:04Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/octokit/octokit.rb",
+      "tree": {
+        "sha": "f3514a9a134b080e8c6ba1b8f3d0538e768901ab",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/f3514a9a134b080e8c6ba1b8f3d0538e768901ab"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/f1955b6a25daa14f5165f848aa4b547ebe4dea02",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/f1955b6a25daa14f5165f848aa4b547ebe4dea02/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "6ca275d0d56303cb41cc88fa42524369aea956d3",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ca275d0d56303cb41cc88fa42524369aea956d3",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/6ca275d0d56303cb41cc88fa42524369aea956d3"
+      },
+      {
+        "sha": "be54f600426b5d0e5673109d865de3c9dd9cb886",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/be54f600426b5d0e5673109d865de3c9dd9cb886",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/be54f600426b5d0e5673109d865de3c9dd9cb886"
+      }
+    ]
+  },
+  {
+    "sha": "6ca275d0d56303cb41cc88fa42524369aea956d3",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-19T15:08:16Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-19T15:08:16Z"
+      },
+      "message": "Allow reading access_token from client",
+      "tree": {
+        "sha": "34a484fc4a099e45e67a2344174e7e8d6c1fa4b1",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/34a484fc4a099e45e67a2344174e7e8d6c1fa4b1"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/6ca275d0d56303cb41cc88fa42524369aea956d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ca275d0d56303cb41cc88fa42524369aea956d3",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/6ca275d0d56303cb41cc88fa42524369aea956d3",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ca275d0d56303cb41cc88fa42524369aea956d3/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "2954a4bacf7687032fa41b5ac40e66f0604df588",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/2954a4bacf7687032fa41b5ac40e66f0604df588",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/2954a4bacf7687032fa41b5ac40e66f0604df588"
+      }
+    ]
+  },
+  {
+    "sha": "be54f600426b5d0e5673109d865de3c9dd9cb886",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-17T19:55:21Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-17T19:55:21Z"
+      },
+      "message": "Merge pull request #294 from caseyscarborough/patch-1\n\nUpdate reference for #following to correct link.",
+      "tree": {
+        "sha": "ab271c9f393135c1d1b2274da615c0f4af7b0b7d",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/ab271c9f393135c1d1b2274da615c0f4af7b0b7d"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/be54f600426b5d0e5673109d865de3c9dd9cb886",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/be54f600426b5d0e5673109d865de3c9dd9cb886",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/be54f600426b5d0e5673109d865de3c9dd9cb886",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/be54f600426b5d0e5673109d865de3c9dd9cb886/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "7743178f0768fceb403ffc9bdc591d091aa79013",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/7743178f0768fceb403ffc9bdc591d091aa79013",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/7743178f0768fceb403ffc9bdc591d091aa79013"
+      },
+      {
+        "sha": "5664cd9a4c33aacd5aaefd2d6c3e60db048f4fa2",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/5664cd9a4c33aacd5aaefd2d6c3e60db048f4fa2",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/5664cd9a4c33aacd5aaefd2d6c3e60db048f4fa2"
+      }
+    ]
+  },
+  {
+    "sha": "2954a4bacf7687032fa41b5ac40e66f0604df588",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-15T18:35:56Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-15T18:35:56Z"
+      },
+      "message": "Do not assume $HOME is set",
+      "tree": {
+        "sha": "0037e98428be6a303fc6a33172d41fdae225693a",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/0037e98428be6a303fc6a33172d41fdae225693a"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/2954a4bacf7687032fa41b5ac40e66f0604df588",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/2954a4bacf7687032fa41b5ac40e66f0604df588",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/2954a4bacf7687032fa41b5ac40e66f0604df588",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/2954a4bacf7687032fa41b5ac40e66f0604df588/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/6ea02edf902456f1495c685ebabb2f1a6045bbf3"
+      }
+    ]
+  },
+  {
+    "sha": "6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T18:14:40Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T18:14:40Z"
+      },
+      "message": "Allow options with /user method",
+      "tree": {
+        "sha": "24fe72e3b3db35901c23e409c4193cadfc5ee879",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/24fe72e3b3db35901c23e409c4193cadfc5ee879"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/6ea02edf902456f1495c685ebabb2f1a6045bbf3",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/6ea02edf902456f1495c685ebabb2f1a6045bbf3/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "ed130a912fa6ff58edf149934385a02ea2287adb",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ed130a912fa6ff58edf149934385a02ea2287adb",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ed130a912fa6ff58edf149934385a02ea2287adb"
+      }
+    ]
+  },
+  {
+    "sha": "ed130a912fa6ff58edf149934385a02ea2287adb",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T17:08:14Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T17:08:14Z"
+      },
+      "message": "Merge branch 'headers-for-body-requests'",
+      "tree": {
+        "sha": "23b82234b3559ff04a9003ea11d1283214fc7816",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/23b82234b3559ff04a9003ea11d1283214fc7816"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/ed130a912fa6ff58edf149934385a02ea2287adb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ed130a912fa6ff58edf149934385a02ea2287adb",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/ed130a912fa6ff58edf149934385a02ea2287adb",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/ed130a912fa6ff58edf149934385a02ea2287adb/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "75d7e76388541fa899271fc782ca9e03acb3d6ee",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/75d7e76388541fa899271fc782ca9e03acb3d6ee",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/75d7e76388541fa899271fc782ca9e03acb3d6ee"
+      },
+      {
+        "sha": "38c79722d6812390522c959af2b6ceadf4b9c932",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/38c79722d6812390522c959af2b6ceadf4b9c932",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/38c79722d6812390522c959af2b6ceadf4b9c932"
+      }
+    ]
+  },
+  {
+    "sha": "75d7e76388541fa899271fc782ca9e03acb3d6ee",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:36:38Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:36:38Z"
+      },
+      "message": "Release 2.0.0.rc3",
+      "tree": {
+        "sha": "e9898cf5e5f353124417da3044e43b30d2303cf2",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/e9898cf5e5f353124417da3044e43b30d2303cf2"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/75d7e76388541fa899271fc782ca9e03acb3d6ee",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/75d7e76388541fa899271fc782ca9e03acb3d6ee",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/75d7e76388541fa899271fc782ca9e03acb3d6ee",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/75d7e76388541fa899271fc782ca9e03acb3d6ee/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "0dae17b2f7eb1b1f3966d3472924382de1473baf",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/0dae17b2f7eb1b1f3966d3472924382de1473baf",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/0dae17b2f7eb1b1f3966d3472924382de1473baf"
+      }
+    ]
+  },
+  {
+    "sha": "0dae17b2f7eb1b1f3966d3472924382de1473baf",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:34:00Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:34:00Z"
+      },
+      "message": "Version bump",
+      "tree": {
+        "sha": "e9898cf5e5f353124417da3044e43b30d2303cf2",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/e9898cf5e5f353124417da3044e43b30d2303cf2"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/0dae17b2f7eb1b1f3966d3472924382de1473baf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/0dae17b2f7eb1b1f3966d3472924382de1473baf",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/0dae17b2f7eb1b1f3966d3472924382de1473baf",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/0dae17b2f7eb1b1f3966d3472924382de1473baf/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5"
+      }
+    ]
+  },
+  {
+    "sha": "e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:18:13Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T16:18:13Z"
+      },
+      "message": "Specific error classes for rate limit related 403s",
+      "tree": {
+        "sha": "c4bfa91aacddf260d3ee02446008c028c37e307c",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/c4bfa91aacddf260d3ee02446008c028c37e307c"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/e6ec28cf7b24b7e5950cbe0b4a1dd234c0c432b5/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "fd98a81229eafb832f65ef5163d7df94af2d384f",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/fd98a81229eafb832f65ef5163d7df94af2d384f",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/fd98a81229eafb832f65ef5163d7df94af2d384f"
+      }
+    ]
+  },
+  {
+    "sha": "fd98a81229eafb832f65ef5163d7df94af2d384f",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T15:47:52Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T15:47:52Z"
+      },
+      "message": "Specs for error summary",
+      "tree": {
+        "sha": "b8f4c3c6e978b1592e3081d0e4a713bf2b7144a7",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/b8f4c3c6e978b1592e3081d0e4a713bf2b7144a7"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/fd98a81229eafb832f65ef5163d7df94af2d384f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/fd98a81229eafb832f65ef5163d7df94af2d384f",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/fd98a81229eafb832f65ef5163d7df94af2d384f",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/fd98a81229eafb832f65ef5163d7df94af2d384f/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "8793828f76f85b85115cb8a18f269ac8e28d1293",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/8793828f76f85b85115cb8a18f269ac8e28d1293",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/8793828f76f85b85115cb8a18f269ac8e28d1293"
+      }
+    ]
+  },
+  {
+    "sha": "8793828f76f85b85115cb8a18f269ac8e28d1293",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T15:21:09Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-14T15:21:09Z"
+      },
+      "message": "Move Exception selection to Octokit::Error, tidy message building",
+      "tree": {
+        "sha": "446a803ce8532bf0352d63c2d39d3d5420235e4f",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/446a803ce8532bf0352d63c2d39d3d5420235e4f"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/8793828f76f85b85115cb8a18f269ac8e28d1293",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/8793828f76f85b85115cb8a18f269ac8e28d1293",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/8793828f76f85b85115cb8a18f269ac8e28d1293",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/8793828f76f85b85115cb8a18f269ac8e28d1293/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "a040f6ccffa852295859865660452709381ddcd5",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/a040f6ccffa852295859865660452709381ddcd5",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/a040f6ccffa852295859865660452709381ddcd5"
+      }
+    ]
+  },
+  {
+    "sha": "a040f6ccffa852295859865660452709381ddcd5",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T19:15:18Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T19:15:18Z"
+      },
+      "message": "Ensure creds are reset between tests",
+      "tree": {
+        "sha": "283922dd051723618b721f6f65921fb05af101b4",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/283922dd051723618b721f6f65921fb05af101b4"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/a040f6ccffa852295859865660452709381ddcd5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/a040f6ccffa852295859865660452709381ddcd5",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/a040f6ccffa852295859865660452709381ddcd5",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/a040f6ccffa852295859865660452709381ddcd5/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "5a24c61b7842e6d60e8709937d445a299224196d",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/5a24c61b7842e6d60e8709937d445a299224196d",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/5a24c61b7842e6d60e8709937d445a299224196d"
+      }
+    ]
+  },
+  {
+    "sha": "5a24c61b7842e6d60e8709937d445a299224196d",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T19:07:26Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T19:07:26Z"
+      },
+      "message": "Relax request matching",
+      "tree": {
+        "sha": "fcd8b458276522bcf2c3486409845d608ea29922",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/fcd8b458276522bcf2c3486409845d608ea29922"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/5a24c61b7842e6d60e8709937d445a299224196d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/5a24c61b7842e6d60e8709937d445a299224196d",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/5a24c61b7842e6d60e8709937d445a299224196d",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/5a24c61b7842e6d60e8709937d445a299224196d/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "844267b9626b20c6e9cbfe85e3222016b05e4737",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/844267b9626b20c6e9cbfe85e3222016b05e4737",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/844267b9626b20c6e9cbfe85e3222016b05e4737"
+      }
+    ]
+  },
+  {
+    "sha": "844267b9626b20c6e9cbfe85e3222016b05e4737",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T14:39:17Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T14:39:17Z"
+      },
+      "message": "Add cassette for spec",
+      "tree": {
+        "sha": "7714afede8dbae1feebc9acbecd9fd28929f03d2",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/7714afede8dbae1feebc9acbecd9fd28929f03d2"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/844267b9626b20c6e9cbfe85e3222016b05e4737",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/844267b9626b20c6e9cbfe85e3222016b05e4737",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/844267b9626b20c6e9cbfe85e3222016b05e4737",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/844267b9626b20c6e9cbfe85e3222016b05e4737/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "38a88c0d757645bca75cbc0269e18d268b76cc5d",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/38a88c0d757645bca75cbc0269e18d268b76cc5d",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/38a88c0d757645bca75cbc0269e18d268b76cc5d"
+      }
+    ]
+  },
+  {
+    "sha": "38a88c0d757645bca75cbc0269e18d268b76cc5d",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T14:38:46Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-13T14:38:46Z"
+      },
+      "message": "Ensure json is loaded for specs",
+      "tree": {
+        "sha": "d68c39099e837253827ed1d9b944e69e03f591ee",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/d68c39099e837253827ed1d9b944e69e03f591ee"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/38a88c0d757645bca75cbc0269e18d268b76cc5d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/38a88c0d757645bca75cbc0269e18d268b76cc5d",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/38a88c0d757645bca75cbc0269e18d268b76cc5d",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/38a88c0d757645bca75cbc0269e18d268b76cc5d/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "b1760d5f0342052cb139dc91de198cb154790b62",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/b1760d5f0342052cb139dc91de198cb154790b62",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/b1760d5f0342052cb139dc91de198cb154790b62"
+      }
+    ]
+  },
+  {
+    "sha": "ecb162c43fcbc434e91fbcf42e67f5ae30ddb98a",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-12T19:24:50Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-12T19:24:50Z"
+      },
+      "message": "Merge pull request #291 from jasonrudolph/fix-search-docs\n\nFix parameter name for search result sort order",
+      "tree": {
+        "sha": "307de591451dc8956ee324f19ff986853cefa9d5",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/307de591451dc8956ee324f19ff986853cefa9d5"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/ecb162c43fcbc434e91fbcf42e67f5ae30ddb98a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ecb162c43fcbc434e91fbcf42e67f5ae30ddb98a",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/ecb162c43fcbc434e91fbcf42e67f5ae30ddb98a",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/ecb162c43fcbc434e91fbcf42e67f5ae30ddb98a/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/4da646b3825806db0b1d0bd2c83d44bb6bbe1689"
+      },
+      {
+        "sha": "f7ae45bfe564b24687d1d73cdf794cb41da5f04b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/f7ae45bfe564b24687d1d73cdf794cb41da5f04b",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/f7ae45bfe564b24687d1d73cdf794cb41da5f04b"
+      }
+    ]
+  },
+  {
+    "sha": "38c79722d6812390522c959af2b6ceadf4b9c932",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-09T16:57:59Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-09T16:57:59Z"
+      },
+      "message": "Allow passing headers in POST, PUT, PATCH requests",
+      "tree": {
+        "sha": "2a3939e1fa85e26acba42dfa4f97aeae0bd2dd4a",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/2a3939e1fa85e26acba42dfa4f97aeae0bd2dd4a"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/38c79722d6812390522c959af2b6ceadf4b9c932",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/38c79722d6812390522c959af2b6ceadf4b9c932",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/38c79722d6812390522c959af2b6ceadf4b9c932",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/38c79722d6812390522c959af2b6ceadf4b9c932/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "551a070891d2ed463e1d730bece2a081d6f7081b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/551a070891d2ed463e1d730bece2a081d6f7081b",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/551a070891d2ed463e1d730bece2a081d6f7081b"
+      }
+    ]
+  },
+  {
+    "sha": "4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-08T21:15:46Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-08T21:15:46Z"
+      },
+      "message": "Merge pull request #287 from jpalumickas/patch-1\n\nUpdate readme to add travis link",
+      "tree": {
+        "sha": "8857da26f83c1e93aa4d6dc391892ea71317bd6d",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/8857da26f83c1e93aa4d6dc391892ea71317bd6d"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/4da646b3825806db0b1d0bd2c83d44bb6bbe1689",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/4da646b3825806db0b1d0bd2c83d44bb6bbe1689/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "551a070891d2ed463e1d730bece2a081d6f7081b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/551a070891d2ed463e1d730bece2a081d6f7081b",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/551a070891d2ed463e1d730bece2a081d6f7081b"
+      },
+      {
+        "sha": "4acbfbe30795e16a8a113a7998b4d6a75a3e3f0c",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4acbfbe30795e16a8a113a7998b4d6a75a3e3f0c",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/4acbfbe30795e16a8a113a7998b4d6a75a3e3f0c"
+      }
+    ]
+  },
+  {
+    "sha": "551a070891d2ed463e1d730bece2a081d6f7081b",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:24:04Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:24:04Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/octokit/octokit.rb",
+      "tree": {
+        "sha": "c51a1fc1d3ce62df5194f217e66472f45ca22381",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/c51a1fc1d3ce62df5194f217e66472f45ca22381"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/551a070891d2ed463e1d730bece2a081d6f7081b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/551a070891d2ed463e1d730bece2a081d6f7081b",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/551a070891d2ed463e1d730bece2a081d6f7081b",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/551a070891d2ed463e1d730bece2a081d6f7081b/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/4c43e42d998d4414b98b0354c9dfe16adc102fe8"
+      },
+      {
+        "sha": "ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ff4699026de39c2bd9a1e5b39952b06a2d4020d1"
+      }
+    ]
+  },
+  {
+    "sha": "4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:21:43Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:21:43Z"
+      },
+      "message": "Bump Sawyer dependency to loosen Faraday dependency",
+      "tree": {
+        "sha": "d77904cf8321e3dbf7ecef66a7386a1c2711d4a7",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/d77904cf8321e3dbf7ecef66a7386a1c2711d4a7"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/4c43e42d998d4414b98b0354c9dfe16adc102fe8",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/4c43e42d998d4414b98b0354c9dfe16adc102fe8/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b"
+      }
+    ]
+  },
+  {
+    "sha": "68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:19:12Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-08-08T20:19:12Z"
+      },
+      "message": "Test for more specific exception in raise_error assertion",
+      "tree": {
+        "sha": "a4370bf5decd2d0a444a5861d85e90defd14d5dd",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/a4370bf5decd2d0a444a5861d85e90defd14d5dd"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/68c7e30977b6f9e3ee432f0a3cfe9130856fa30b/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88"
+      }
+    ]
+  },
+  {
+    "sha": "ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-07T22:48:36Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn.netherland@gmail.com",
+        "date": "2013-08-07T22:48:36Z"
+      },
+      "message": "Merge pull request #286 from cdemonchy/master\n\nuse pagination for organization_repositories",
+      "tree": {
+        "sha": "48be129c56721cc660f1891113a88273f2303b65",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/48be129c56721cc660f1891113a88273f2303b65"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/ff4699026de39c2bd9a1e5b39952b06a2d4020d1",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/ff4699026de39c2bd9a1e5b39952b06a2d4020d1/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "74da562ea617049214e6e20d2bae580dda2ae5a3",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/74da562ea617049214e6e20d2bae580dda2ae5a3",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/74da562ea617049214e6e20d2bae580dda2ae5a3"
+      },
+      {
+        "sha": "9f645e85e995127f496b88c51b899c0a50bfa319",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/9f645e85e995127f496b88c51b899c0a50bfa319",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/9f645e85e995127f496b88c51b899c0a50bfa319"
+      }
+    ]
+  },
+  {
+    "sha": "8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-19T14:47:07Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-19T14:47:07Z"
+      },
+      "message": "Release 2.0.0.rc2",
+      "tree": {
+        "sha": "8d3ebe6554e8e0e15e1695e01e28ed762d252204",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/8d3ebe6554e8e0e15e1695e01e28ed762d252204"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/8d487ab06ccef463aa9f5412a56f1a2f1fa4dc88/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "75ac217b7efcb2597ab71973c9a012c68b694e50",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/75ac217b7efcb2597ab71973c9a012c68b694e50",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/75ac217b7efcb2597ab71973c9a012c68b694e50"
+      }
+    ]
+  },
+  {
+    "sha": "75ac217b7efcb2597ab71973c9a012c68b694e50",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-19T14:35:15Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-19T14:35:15Z"
+      },
+      "message": "Bump for release",
+      "tree": {
+        "sha": "8d3ebe6554e8e0e15e1695e01e28ed762d252204",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/8d3ebe6554e8e0e15e1695e01e28ed762d252204"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/75ac217b7efcb2597ab71973c9a012c68b694e50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/75ac217b7efcb2597ab71973c9a012c68b694e50",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/75ac217b7efcb2597ab71973c9a012c68b694e50",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/75ac217b7efcb2597ab71973c9a012c68b694e50/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/14624fd25a0a9ccd41faa2e9fa073519cccce8d1"
+      }
+    ]
+  },
+  {
+    "sha": "14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T15:19:18Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T15:19:18Z"
+      },
+      "message": "Add warning for preview Search",
+      "tree": {
+        "sha": "225b3954780c21f9957d0cf797c404fd30d531a5",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/225b3954780c21f9957d0cf797c404fd30d531a5"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/14624fd25a0a9ccd41faa2e9fa073519cccce8d1",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/14624fd25a0a9ccd41faa2e9fa073519cccce8d1/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "b2a912839c245264730ecbb850eeb8fbcf2468bd",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/b2a912839c245264730ecbb850eeb8fbcf2468bd",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/b2a912839c245264730ecbb850eeb8fbcf2468bd"
+      }
+    ]
+  },
+  {
+    "sha": "b2a912839c245264730ecbb850eeb8fbcf2468bd",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T15:12:13Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T15:12:13Z"
+      },
+      "message": "Format specs for search to be consistent",
+      "tree": {
+        "sha": "2928ff95213eb1e21f7dded5ffa946fc29ecda1b",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/2928ff95213eb1e21f7dded5ffa946fc29ecda1b"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/b2a912839c245264730ecbb850eeb8fbcf2468bd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/b2a912839c245264730ecbb850eeb8fbcf2468bd",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/b2a912839c245264730ecbb850eeb8fbcf2468bd",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/b2a912839c245264730ecbb850eeb8fbcf2468bd/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "32e756cfaf00809c59644aedfcff67a9939ecdfd",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/32e756cfaf00809c59644aedfcff67a9939ecdfd",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/32e756cfaf00809c59644aedfcff67a9939ecdfd"
+      }
+    ]
+  },
+  {
+    "sha": "32e756cfaf00809c59644aedfcff67a9939ecdfd",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:04:32Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:04:32Z"
+      },
+      "message": "Merge branch 'master' into new-search",
+      "tree": {
+        "sha": "f1ef28dd2dad753d88fd52e39cb8b36ff19eca24",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/f1ef28dd2dad753d88fd52e39cb8b36ff19eca24"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/32e756cfaf00809c59644aedfcff67a9939ecdfd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/32e756cfaf00809c59644aedfcff67a9939ecdfd",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/32e756cfaf00809c59644aedfcff67a9939ecdfd",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/32e756cfaf00809c59644aedfcff67a9939ecdfd/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "4d83f58d4901520f892875f23c9486d072795883",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4d83f58d4901520f892875f23c9486d072795883",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/4d83f58d4901520f892875f23c9486d072795883"
+      },
+      {
+        "sha": "072dff5ad1b4456f60ba1f887400203f56512579",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/072dff5ad1b4456f60ba1f887400203f56512579",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/072dff5ad1b4456f60ba1f887400203f56512579"
+      }
+    ]
+  },
+  {
+    "sha": "072dff5ad1b4456f60ba1f887400203f56512579",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:04:16Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:04:16Z"
+      },
+      "message": "Fix comment in legacy search spec",
+      "tree": {
+        "sha": "2623fa6dd7accfafe9945c320f62df2163db2f9c",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/2623fa6dd7accfafe9945c320f62df2163db2f9c"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/072dff5ad1b4456f60ba1f887400203f56512579",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/072dff5ad1b4456f60ba1f887400203f56512579",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/072dff5ad1b4456f60ba1f887400203f56512579",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/072dff5ad1b4456f60ba1f887400203f56512579/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "ee34a087d053a201c97125c3a2bf79f2499b0915",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee34a087d053a201c97125c3a2bf79f2499b0915",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ee34a087d053a201c97125c3a2bf79f2499b0915"
+      }
+    ]
+  },
+  {
+    "sha": "4d83f58d4901520f892875f23c9486d072795883",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:03:28Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T02:03:28Z"
+      },
+      "message": "Add methods for new search",
+      "tree": {
+        "sha": "6116f5f0536defb1da3c22ed8423aeeb95689960",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/6116f5f0536defb1da3c22ed8423aeeb95689960"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/4d83f58d4901520f892875f23c9486d072795883",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/4d83f58d4901520f892875f23c9486d072795883",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/4d83f58d4901520f892875f23c9486d072795883",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/4d83f58d4901520f892875f23c9486d072795883/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ee17c2bb40e225047fdfd601ee58486fd5eaa92c"
+      }
+    ]
+  },
+  {
+    "sha": "ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T01:08:21Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T01:08:21Z"
+      },
+      "message": "Merge branch 'master' into new-search",
+      "tree": {
+        "sha": "0744ae27bfd4746b7955fba23a8ee096ca07e433",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/0744ae27bfd4746b7955fba23a8ee096ca07e433"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/ee17c2bb40e225047fdfd601ee58486fd5eaa92c",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee17c2bb40e225047fdfd601ee58486fd5eaa92c/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "381badd68e4499febf36df2a609fb82a918358bd",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/381badd68e4499febf36df2a609fb82a918358bd",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/381badd68e4499febf36df2a609fb82a918358bd"
+      },
+      {
+        "sha": "ee34a087d053a201c97125c3a2bf79f2499b0915",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee34a087d053a201c97125c3a2bf79f2499b0915",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/ee34a087d053a201c97125c3a2bf79f2499b0915"
+      }
+    ]
+  },
+  {
+    "sha": "ee34a087d053a201c97125c3a2bf79f2499b0915",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T01:07:19Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-18T01:07:19Z"
+      },
+      "message": "Force legacy names for legacy search",
+      "tree": {
+        "sha": "5a9566dc60ffca57a46dc3d5a2e7b078558e9719",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/5a9566dc60ffca57a46dc3d5a2e7b078558e9719"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/ee34a087d053a201c97125c3a2bf79f2499b0915",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee34a087d053a201c97125c3a2bf79f2499b0915",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/ee34a087d053a201c97125c3a2bf79f2499b0915",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/ee34a087d053a201c97125c3a2bf79f2499b0915/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593"
+      }
+    ]
+  },
+  {
+    "sha": "381badd68e4499febf36df2a609fb82a918358bd",
+    "commit": {
+      "author": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-17T19:46:47Z"
+      },
+      "committer": {
+        "name": "Wynn Netherland",
+        "email": "wynn@github.com",
+        "date": "2013-07-17T19:46:47Z"
+      },
+      "message": "Add guard script; quiet bootstrap",
+      "tree": {
+        "sha": "2e9cf3bcbe668d66340c586cedcf632d326321c4",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/git/trees/2e9cf3bcbe668d66340c586cedcf632d326321c4"
+      },
+      "url": "https://api.github.com/repos/octokit/octokit.rb/git/commits/381badd68e4499febf36df2a609fb82a918358bd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/octokit/octokit.rb/commits/381badd68e4499febf36df2a609fb82a918358bd",
+    "html_url": "https://github.com/octokit/octokit.rb/commit/381badd68e4499febf36df2a609fb82a918358bd",
+    "comments_url": "https://api.github.com/repos/octokit/octokit.rb/commits/381badd68e4499febf36df2a609fb82a918358bd/comments",
+    "author": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "committer": {
+      "login": "pengwynn",
+      "id": 865,
+      "avatar_url": "https://2.gravatar.com/avatar/7e19cd5486b5d6dc1ef90e671ba52ae0?d=https%3A%2F%2Fidenticons.github.com%2F3b3dbaf68507998acd6a5a5254ab2d76.png",
+      "gravatar_id": "7e19cd5486b5d6dc1ef90e671ba52ae0",
+      "url": "https://api.github.com/users/pengwynn",
+      "html_url": "https://github.com/pengwynn",
+      "followers_url": "https://api.github.com/users/pengwynn/followers",
+      "following_url": "https://api.github.com/users/pengwynn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pengwynn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pengwynn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pengwynn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pengwynn/orgs",
+      "repos_url": "https://api.github.com/users/pengwynn/repos",
+      "events_url": "https://api.github.com/users/pengwynn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pengwynn/received_events",
+      "type": "User"
+    },
+    "parents": [
+      {
+        "sha": "c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593",
+        "url": "https://api.github.com/repos/octokit/octokit.rb/commits/c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593",
+        "html_url": "https://github.com/octokit/octokit.rb/commit/c1abff9f26009133c1e4c2f81a3dc5bdbf7f7593"
+      }
+    ]
+  }
+]
