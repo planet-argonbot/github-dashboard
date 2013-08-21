@@ -17,7 +17,7 @@ describe Repository do
 
   describe '#contributors' do
     it "returns a repository's contributors" do
-      expect(repo.top_contributors).to be_an(Array)
+      expect(repo.contributors).to be_an(Array)
     end
   end
 end
