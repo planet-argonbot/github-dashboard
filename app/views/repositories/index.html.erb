@@ -3,7 +3,7 @@
     <h2>
       <%= link_to repository.full_name do %>
         <%= image_tag repository.owner.avatar_url, size: '48x48' %>
-        <%= repository.name %>
+        <%= truncate(repository.name, length: 17) %>
       <% end %>
     </h2>
 
