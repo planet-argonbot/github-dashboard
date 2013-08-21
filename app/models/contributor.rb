@@ -10,7 +10,13 @@ class Contributor
 
   def last_contributed_at
     Date.parse(
-      client.commits(repo, 'master', {author: user}).first.commit.author.date
+      commits.first.commit.author.date
     )
+  end
+
+  private
+
+  def commits
+    client.commits(repo, 'master', { author: user })
   end
 end
