@@ -2,11 +2,11 @@ class Repository < Octokit::Repository
   include ClientHelper
 
   def top_contributors
-    contributions.first(3)
+    contributors.first(3)
   end
 
-  def contributions
-    Rails.cache.fetch("repository:contributions:#{slug}", expires_in: 10.minutes) do
+  def contributors
+    Rails.cache.fetch("repository:contributors:#{slug}", expires_in: 10.minutes) do
       client.contribs(slug)
     end
   end

@@ -2,7 +2,7 @@
 <h1><%= @repository.name %></h1>
 
 <ul class="contributor-dates">
-  <% @repository.contributions.each do |contributor| %>
+  <% @repository.contributors.each do |contributor| %>
     <li>
       <span><%= contributor.login %></span>
       - <%= time_ago_in_words(Contributor.new(contributor.login, @repository).last_contributed_at) %> ago
@@ -13,7 +13,7 @@
 <h2>Top Contributors</h2>
 
 <ul class="usage-chart">
-  <% @repository.contributions.each do |contributor| %>
+  <% @repository.contributors.each do |contributor| %>
     <li>
       <p class="usage-name"><%= contributor.login %></p>
       <p style="height: <%= contributor.contributions %>px;" class="usage-bar"></p>
