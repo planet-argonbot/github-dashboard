@@ -1,6 +1,6 @@
 class RepositoriesController < ApplicationController
   def index
-    @repositories = client.repositories
+    @repositories = Rails.cache.fetch('repositories', expires_in: 10.minutes) { client.repositories }
   end
 
   def show

@@ -5,9 +5,9 @@ class Repository < Octokit::Repository
     contributions.first(3)
   end
 
-  private
-
   def contributions
-    client.contribs(slug)
+    Rails.cache.fetch("repository:contributions:#{slug}", expires_in: 10.minutes) do
+      client.contribs(slug)
+    end
   end
 end
