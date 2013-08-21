@@ -8,7 +8,7 @@
     </h2>
 
     <ul class="contributor-list">
-      <% Contributor.top(repository.full_name).each do |contributor| %>
+      <% Repository.new(repository.full_name).top_contributors.each do |contributor| %>
         <li>
           <a href="<%= contributor.html_url %>">
             <%= image_tag contributor.avatar_url, size: '48x48', class: 'headshot' %>

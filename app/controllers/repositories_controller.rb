@@ -4,6 +4,6 @@ class RepositoriesController < ApplicationController
   end
 
   def show
-    @repository = Octokit::Repository.new(owner: params[:owner], name: params[:name])
+    @repository = Repository.new(owner: params[:owner], name: params[:name])
   end
 end

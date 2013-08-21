@@ -1,6 +1,5 @@
 class Contributor
   include ClientHelper
-  extend ClientHelper
 
   attr_reader :user, :repo
 
@@ -13,9 +12,5 @@ class Contributor
     Date.parse(
       client.commits(repo, 'master', {author: user}).first.commit.author.date
     )
-  end
-
-  def self.top(repo)
-    client.contribs(repo).first(3)
   end
 end
