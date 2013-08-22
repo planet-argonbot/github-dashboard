@@ -12,6 +12,7 @@
         <li>
           <%= link_to contributor.html_url do %>
             <%= image_tag contributor.avatar_url, size: '48x48', class: 'headshot' %>
+            <span class="sparkline"><%= Contributor.new(contributor.login, repository.full_name).contributions_for_week.join(',') %></span>
           <% end %>
           <div class="popup">
             <h3>Number of Commits</h3>
