@@ -30,6 +30,7 @@ group :doc do
 end
 
 gem 'octokit'
+gem 'jquery-turbolinks'
 
 group :development do
   gem 'better_errors'
