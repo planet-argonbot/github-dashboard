@@ -24,7 +24,7 @@ class Contributor
   private
 
   def commits
-    Rails.cache.fetch("contributor:commits:#{user}:#{repo}", expires_in: 10.minutes) do
+    Rails.cache.fetch("contributor:commits:#{user}:#{repo}", expires_in: 1.hour) do
       client.commits(repo, 'master', author: user)
     end
   end

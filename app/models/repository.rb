@@ -6,7 +6,7 @@ class Repository < Octokit::Repository
   end
 
   def contributors
-    Rails.cache.fetch("repository:contributors:#{slug}", expires_in: 10.minutes) do
+    Rails.cache.fetch("repository:contributors:#{slug}", expires_in: 1.hour) do
       client.contribs(slug)
     end
   end
