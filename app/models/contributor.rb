@@ -15,7 +15,7 @@ class Contributor
   def contributions_for_week
     commits.each_with_object(Array.new(7, 0)) do |commit, result|
       date = Date.parse(commit.commit.author.date)
-      if date >= 1.week.ago.to_date
+      if date >= 1.week.ago
         result[date.cwday - 1] += 1
       end
     end
