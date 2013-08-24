@@ -1,5 +1,5 @@
 <%= link_to '&laquo; Back'.html_safe, root_path, class: 'back-button' %>
-<h1><%= link_to @repository.name, client.repo(@repository).html_url %></h1>
+<h1><%= link_to @repository.name, @repository.url %></h1>
 
 <ul class="contributor-dates">
   <% @repository.contributors.each do |contributor| %>
