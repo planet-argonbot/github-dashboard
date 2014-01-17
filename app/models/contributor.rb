@@ -1,6 +1,4 @@
 class Contributor
-  include ClientHelper
-
   attr_reader :user, :repo
 
   def initialize(user, repo)
@@ -22,14 +20,14 @@ class Contributor
   end
 
   private
-  
+
   def this_week?(date)
     date >= Date.today.beginning_of_week && date <= Date.today.end_of_week
   end
 
   def commits
     Rails.cache.fetch("contributor:commits:#{user}:#{repo}", expires_in: 1.hour) do
-      client.commits(repo, 'master', author: user)
+      OCTOKIT_CLIENT.commits(repo, 'master', author: user)
     end
   end
 end
